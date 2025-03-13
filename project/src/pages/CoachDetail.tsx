@@ -3,8 +3,8 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Instagram, Medal, Trophy, Users, Clock } from 'lucide-react';
 
 const coachDetails = {
-  sarah: {
-    name: "Sarah Johnson",
+  Kalyan: {
+    name: "Kalyan Kumar",
     role: "Head Fitness Coach",
     image: "https://images.unsplash.com/photo-1609899537878-39f7cebfac62?auto=format&fit=crop&q=80",
     instagram: "coach_sarah",
@@ -27,8 +27,8 @@ const coachDetails = {
       }
     ]
   },
-  mike: {
-    name: "Mike Rodriguez",
+  Padmini: {
+    name: "Padmini",
     role: "Nutrition Specialist",
     image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&q=80",
     instagram: "mike_nutrition",

@@ -5,18 +5,18 @@ import { Dumbbell, Salad, Mail, Apple as WhatsApp, CheckCircle2, Instagram, MapP
 function Home() {
   const coaches = [
     {
-      id: "sarah",
-      name: "Sarah Johnson",
-      role: "Head Fitness Coach",
-      expertise: "Strength Training & HIIT",
+      id: "Kalyan",
+      name: "Kalyan Kumar",
+      role: "Fitness Coach",
+      expertise: "Strength Training & Nutrition Specialist",
       image: "https://images.unsplash.com/photo-1609899537878-39f7cebfac62?auto=format&fit=crop&q=80",
       instagram: "coach_sarah"
     },
     {
-      id: "mike",
-      name: "Mike Rodriguez",
-      role: "Nutrition Specialist",
-      expertise: "Diet Planning & Macros",
+      id: "Padmini",
+      name: "Padmini ",
+      role: "Fitness Coach",
+      expertise: "Yoga, Zumba & Nutrition Specialist",
       image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&q=80",
       instagram: "mike_nutrition"
     }
@@ -95,7 +95,7 @@ function Home() {
             </div>
             <h3 className="text-xl font-semibold mb-4">Customized Workout Plans</h3>
             <ul className="space-y-3">
-              {['Personalized exercise routines', 'Progress tracking', 'Video demonstrations', 'Weekly adjustments'].map((item, index) => (
+              {['Personalized exercise routines', 'Progress tracking', 'Video demonstrations', 'Live classes'].map((item, index) => (
                 <li key={index} className="flex items-center gap-2">
                   <CheckCircle2 className="text-emerald-500" size={20} />
                   <span>{item}</span>
@@ -123,10 +123,11 @@ function Home() {
       {/* Gyms Section */}
       <div className="py-20 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-4">Our World-Class Facilities</h2>
+          <h2 className="text-3xl font-bold text-center mb-4">Our Gym-Facilities</h2>
           <p className="text-gray-600 text-center mb-16 max-w-2xl mx-auto">
-            Experience fitness excellence at our state-of-the-art locations, each equipped with premium equipment and amenities
-          </p>
+          Enjoy top-quality fitness at our modern locations, fully equipped with premium gear and great amenities. <br></br>   
+          Experience a welcoming environment with one to one guidance.
+                </p>
           <div className="grid md:grid-cols-3 gap-8">
             {gyms.map((gym, index) => (
               <div key={index} className="bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100">
@@ -177,7 +178,7 @@ function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-4">Meet Our Expert Coaches</h2>
           <p className="text-gray-600 text-center mb-16 max-w-2xl mx-auto">
-            Our certified fitness professionals are here to guide you through your transformation journey with expertise and dedication
+          Our certified fitness professionals are here to support you every step of the way, making sure your transformation journey is guided by expert advice, personalized care, and full dedication.
           </p>
           <div className="grid md:grid-cols-2 gap-8">
             {coaches.map((coach) => (
